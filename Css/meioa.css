@@ -1,0 +1,265 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background:linear-gradient(rgb(22, 139, 32),rgb(8, 73, 212));
+}
+
+main{
+    width:98%;
+    margin-left:auto;
+    margin-right:auto;
+    border: 3px solid white;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+span{
+    color: rgb(82, 78, 78);
+}
+
+h1{
+    color: black;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h2{
+    text-align: center;
+    font-size:30px;
+    margin: 5px;
+}
+
+h3{
+    margin-left:5%;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+p{
+    font-size: 21px;
+    margin: 5px;
+    text-align:center;
+}
+
+.ul{
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 21px;
+    padding: 5px;
+    text-decoration:none;
+    list-style-type:none;
+}
+
+#inter{font-size: 18px;}.pf{font-size: 19px;}
+
+article{
+    margin-top:8px;margin-bottom:8px;margin-left:25px;
+    padding:5px;
+    width:29.9%;
+}
+
+
+figure{
+    width: 95%;
+    height:85%;
+    margin-top: 5px;
+
+}
+
+.pa{
+    width:98%;
+    height:100%;
+    background-image: url(../Imagens/poluicr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+   flex-wrap: wrap;
+   padding:15px;
+}
+
+.pa h1,h2{color: red;}
+
+.pa p{color:white;  
+    background-color: rgba(0, 0, 0, 0.6);
+    padding:3px;
+    border-radius: 5%;
+}
+
+.pa article{
+    width:48%;
+    height:32%;
+    background-color: none;
+    margin-left:10px;
+    padding:5px;
+}
+
+
+.pa figure{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:3px;
+}
+
+
+.pa figure img{
+    width:100%;
+    height:100%;
+    border-radius:5%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding:5px;
+}
+
+
+
+#polu,#dm figure{
+    width:25%;
+    height:20%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-left:20px;
+   }
+
+   #polu,#dm{
+    width:98%;
+    height:25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#oleo figure{
+    width:65%;
+}
+
+#chuva figure{
+    height:61.3%;
+    width:96%;
+}
+
+#metal figure{
+  width:53%;
+}
+
+#prq figure{
+    height:49%;
+
+}
+
+
+
+#voltar{
+    margin-left:43%;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+#voltar:hover{
+    text-decoration:underline;
+    color: white;
+}
+
+
+small{
+    color:white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+
+@media screen and (min-width:200px) and (max-width:363px) {
+    
+    main{
+        flex-direction: column;
+      }
+
+      article{
+        width:85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .pa{
+        flex-direction: column;  
+        background-image: none;
+        background-color:rgba(0,0,0, 0.9);
+    }
+
+    .pa article{
+        width:85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    
+    p,.ul,#inter,.pf{font-size: 12px;}h1{font-size: 22px;}h2{font-size: 20px;}h1{font-size: 25px;}h3{font-size: 15px;}
+
+    #voltar{font-size: 18px;}
+}
+
+
+
+
+@media screen and (min-width:364px) and (max-width:765px) {
+   
+      main{
+        flex-direction: column;
+      }
+
+      article{
+        width:80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .pa{
+        flex-direction: column;  
+    }
+
+    .pa article{
+        width:80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+
+  
+
+
+    p,.ul,#inter,.pf{font-size: 17px;}h1{font-size: 30px;}h2{font-size: 27px;}h1{font-size: 32px;}h3{font-size: 22px;}
+
+    #voltar{font-size: 20px;}
+}
+
+
+
+@media screen and (min-width:766px) and (max-width:1041px) {
+    article{
+        width:28.5%;
+    }
+    
+    .pa article{
+        width: 47%;
+    }
+
+p{font-size: 17px;}.ul{font-size:15px;} #inter{font-size: 15px;}.pf{font-size: 16px;}h1{font-size: 30px;}h2{font-size: 27px;}h1{font-size: 32px;}h3{font-size: 22px;}
+
+#voltar{font-size: 25px;}
+
+
+}
+

@@ -1,0 +1,154 @@
+
+html{
+   scroll-behavior: smooth;
+}
+
+#cs{
+   width: 100%;
+   text-align: center;
+   color: white;
+   font-size: 20px;
+}
+
+h2{margin-bottom:15px;}
+
+#click{color: yellow;}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width:98%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+   background-image: url(../Imagens/gat.jpg);
+   background-repeat:no-repeat;
+ 
+}
+
+article{
+   padding:5px;
+   font-size:10px;
+   margin:0px 80px 0px 50px;
+   margin-bottom: 25px;
+   cursor: pointer;
+   transition:0.6s;
+   background-color: rgba(5,7,12,0.7);
+}
+
+p{
+   padding:10px;
+   margin-bottom:5px;
+   text-align: center;
+   color: white;
+}
+
+#a1,#a2,#a3,#a4{
+   width:25%;
+}
+
+
+
+#voltar{
+   margin-left:43%;
+   font-size: 30px;
+   color:white;
+   text-decoration: none;
+}
+
+
+
+#voltar:hover{
+   text-decoration:underline;
+   color: white;
+}
+
+
+small{
+   color:white;
+   font-size: 25px;
+   margin: 10px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:280px) and (max-width:399px){
+
+
+
+   main{
+      flex-direction: column;
+   }
+   
+   body{
+      background-image: none;
+      background-color: black;
+   }
+   
+   
+   #a1,#a2,#a3,#a4{
+      width:35%;
+   }
+   
+   article{
+      font-size:6px;
+      margin-bottom:30px;
+   }
+   
+   p{
+      background-color:black;
+   }
+   
+   #voltar{
+      margin-left:25%;
+      font-size:20px;
+   }
+
+   #cs,#click{font-size:14px;}
+}
+
+
+
+@media screen and (min-width:400px) and (max-width:765px){
+
+main{
+   flex-direction: column;
+}
+
+body{
+   background-image: url(../Imagens/gato.jpg);
+   background-color: black;
+}
+
+
+#a1,#a2,#a3,#a4{
+   width:38%;
+}
+
+article{
+   font-size: 8px;
+   margin-bottom: 30px;
+}
+
+p{
+   background-color:black;
+}
+
+#voltar{
+   margin-left:38%;
+   font-size:25px;
+}
+
+#cs,#click{font-size:18px;}
+
+}
