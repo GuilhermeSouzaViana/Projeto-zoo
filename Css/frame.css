@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   
+   body {
+        background-color: rgb(230, 230, 236);
+       background-image: url(../Imagens/paisag.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+
+    article{
+        border: 2px solid black;
+        display:block;
+        text-align: center;
+        font-size: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom:15px;
+        border-radius:25px;
+        width:430px;
+        height:148px;
+        color:white;
+        background-color:rgb(43, 40, 40);
+    }
+
+   p{
+    text-align: center;
+    font-size: 25px;
+    padding:3px;
+    margin-bottom:0px;
+    color:white;
+   }
+
+    a{
+        color:rgb(29, 238, 22);
+        text-decoration:none;
+        font-size:30px;
+    }
+
+    a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+
+ h1{
+    text-align: center;
+    margin-bottom:3px;
+    
+ }
+
+ h2{ background-color:rgba(5, 7, 12, 0.7);}
+
+ 
+
+ #m,#a,#r,#av,#i{
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+#m{
+    background-image:url(../Imagens/ms.jpg);
+}
+
+ #a{
+    background-image:url(../Imagens/af.jpg);
+ }
+
+ #r{
+    background-image:url(../Imagens/cobr.jpg);
+ }
+
+ #av{
+    background-image:url(../Imagens/aguia.jpg);
+ }
+
+
+
+ #i{
+    background-image:url(../Imagens/ins.jpg);
+ }

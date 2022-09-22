@@ -39,6 +39,7 @@ article{
    cursor: pointer;
    transition:0.6s;
    background-color: rgba(5,7,12,0.7);
+   border-radius: 7%;
 }
 
 p{
