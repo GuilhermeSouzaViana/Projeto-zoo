@@ -243,3 +243,32 @@ body{
 }
 
 }
+
+
+@media screen and (min-width:1400px){
+    #conteudo{font-size: 22px;}   
+
+    #p1{font-size: 27px;}
+    
+    h4{font-size:30px};
+    
+    strong{font-size:27px;}
+    
+    h3{font-size:30px;}
+  
+    ol{font-size:30px;}
+  
+    span{font-size:30px;}
+
+    p{font-size: 23px;}
+  
+
+    img{
+        width:25%;
+    }
+
+    #voltar{
+        font-size:38px;
+    }
+
+}

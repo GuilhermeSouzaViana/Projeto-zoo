@@ -197,6 +197,9 @@ color: white;
   div{
     width: 95%;
     font-size:22px;
+    background-color: rgba(5, 7, 8, 0.6);
+    border-radius:30px;
+    padding: 10px;
   }
 
   #chordata{
@@ -215,3 +218,62 @@ h1{
 }
 
 }
+
+@media screen and (min-width:1400px){
+
+
+    .flex1,.flex2{
+       display: flex;
+       flex-direction:column;
+       font-size:24px;
+    }
+
+    .flex1{
+        background-image:url(../Imagens/saibar.jpg);
+       background-repeat:no-repeat; 
+       background-size: cover; 
+    }
+
+.flex2{
+    background-image:url(../Imagens/saiba2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+.flex2 div{
+    color: white;
+    text-shadow: 0px 0px 100px yellow;
+}
+
+  div{
+    width: 80%;
+    font-size:35px;
+    background-color: rgba(5, 7, 8, 0.6);
+    border-radius:25px;
+    padding: 10px;
+  }
+
+  #chordata{
+    width: 80%;
+    font-size:30px;
+    color:white;
+    text-shadow: 0px 0px 100px yellow;
+  }
+
+article{
+    font-size: 27px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+figcaption{
+    color: white;
+    font-size:25px ;
+    }
+    
+
+}
+

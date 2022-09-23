@@ -104,7 +104,7 @@ small{
    
    article{
       font-size:6px;
-      margin-bottom:30px;
+      margin-bottom:35px;
    }
    
    p{
@@ -139,7 +139,7 @@ body{
 
 article{
    font-size: 8px;
-   margin-bottom: 30px;
+   margin-bottom:30px;
 }
 
 p{
@@ -152,5 +152,25 @@ p{
 }
 
 #cs,#click{font-size:18px;}
+
+}
+
+
+
+@media screen and (min-width:1400px){
+
+   article{
+      font-size:12px;
+      margin-bottom:70px;
+      margin:0px 150px 0px 150px;
+   }
+   
+   #voltar{
+      margin-left:40%;
+      font-size:30px;
+   }
+
+
+   #cs{font-size:28px;}
 
 }

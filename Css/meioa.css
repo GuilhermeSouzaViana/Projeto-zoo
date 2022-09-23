@@ -247,7 +247,7 @@ small{
 
 
 
-@media screen and (min-width:766px) and (max-width:1041px) {
+@media screen and (min-width:766px) and (max-width:1050px) {
     article{
         width:28.5%;
     }
@@ -263,3 +263,11 @@ p{font-size: 17px;}.ul{font-size:15px;} #inter{font-size: 15px;}.pf{font-size: 1
 
 }
 
+
+@media screen and (min-width:1400px) {
+   
+    p{font-size: 24px;}.ul{font-size:22px;} #inter{font-size: 22px;}.pf{font-size: 23px;}h1{font-size: 37px;}h2{font-size: 34px;}h1{font-size: 39px;}h3{font-size: 29px;}
+
+    #voltar{font-size: 32px;}
+    
+}   
