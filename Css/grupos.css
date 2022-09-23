@@ -1,0 +1,115 @@
+@charset "Utf-8";
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+ }
+
+ body{
+background-color: gray;
+}
+
+  article{
+    display:flex;
+    flex-direction: column;
+     text-align: center;
+    padding: 10px;
+    width:25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ div{
+    border: 2px solid black;
+    padding:10px;
+    font-size:30px;
+    margin-bottom:50px;
+    background-color:rgba(225,225,225, 0.5);
+    border-radius:25px;
+ }
+
+ p{
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    color:white;
+    width:92%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:rgba(5, 7,12, 0.5);
+    border-radius:20px;
+ }
+
+ h1{font-size: 30px;}h2{font-size: 25px;}
+
+ h1,h2{
+    text-align: center;
+    color:white;
+    background-color:rgba(5, 7,12, 0.5);
+    width:100%;
+ }
+
+ a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+#voltar{
+font-size: 28px;
+margin-left:45%;
+text-decoration: none;
+color: black;
+}
+
+#voltar:hover{
+color: white;
+text-decoration:underline;
+}
+
+@media screen and (min-width:220px) and (max-width:379px){
+article{width:55%;}
+
+div{
+    font-size:18px;
+    margin-bottom:40px;
+}
+ 
+p{
+    font-size:17px;
+}
+
+h1,h2{font-size:20px;}
+
+
+#voltar{ margin-left:40%;}
+
+}
+
+@media screen and (min-width:380px) and (max-width:764px){
+
+div{
+    font-size:21px;
+    margin-bottom:60px;
+    background-color:rgba(225,225,225, 0.5);
+    border-radius:50%;
+}
+
+article{width:40%;}
+
+p{
+    font-size:22px;
+}
+
+
+#voltar{
+margin-left:43%;
+}
+}

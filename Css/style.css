@@ -14,6 +14,7 @@ body{
     background-color: gray;
     background-image: url(../Imagens/mar.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -58,13 +59,13 @@ span{
 img{
   height:50%;
   width:40%;
-  border-radius: 50%;
+  border-radius:50%;
   box-shadow: 0px 0px 10px black;
 }
 
 
 #p1{
-    font-size: 23px;
+    font-size:23px;
 }
 
 p{
@@ -74,10 +75,11 @@ p{
 }
 
 h3{
-margin-left:18%;
 margin-top: 4px;margin-bottom: 4px;
 font-size: 28px;
 color: black;
+text-align:center;
+width: 100%;
 }
 
 strong{
@@ -100,10 +102,12 @@ h4{
     font-size: 22px;
     margin: 5px;
     color: black;
+
 }
 
 h4 a{
     text-decoration:none;
+    
 }
 
 h4 a:hover{
@@ -112,7 +116,7 @@ h4 a:hover{
 
 #frame{
     text-align: center;
-    width: 43%;
+    width:43%;
     background-color:gray; 
     border-radius:2.5%;
 }
@@ -127,7 +131,7 @@ h4 a:hover{
 #voltar{
     margin-left: 43%;
     font-size: 30px;
-    color: black;
+    color:white;
     text-decoration: none;
 }
 
@@ -135,7 +139,7 @@ h4 a:hover{
 
 #voltar:hover{
     text-decoration:underline;
-    color: white;
+    color:yellow;
 }
 
 
@@ -145,3 +149,97 @@ small{
     margin: 10px;
 }
 
+
+@media screen and (min-width:250px) and (max-width:765px) {
+   
+  #conteudo{font-size: 18px;}   
+
+  #p1{font-size: 18px;}
+  
+  h4{font-size:20px};
+  
+  strong{font-size:18px;}
+  
+  h3{font-size:22px;}
+
+  ol{font-size:18px;}
+
+  span{font-size:22px;}
+
+main{
+    flex-direction: column;
+   }
+   
+ article{
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+  div{
+   width:100%;
+  }
+
+img{
+   width:10%;
+}
+
+  #conteudo{
+   width:95%;
+}
+ 
+
+
+#frame{
+ width:95%;
+ height:500px;
+}
+
+#voltar{
+   margin-left:33%;
+   font-size: 25px;
+
+}
+
+}
+
+
+
+@media screen and (min-width:766px) and (max-width:1095px) {
+    main{
+     flex-direction: column;
+    }
+    
+  article{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+   div{
+    width:100%;
+   }
+
+img{
+    width:25%;
+}
+
+   #conteudo{
+    width:95%;
+}
+  
+
+
+#frame{
+  width:95%;
+  height:500px;
+}
+
+#voltar{
+    margin-left:40%;
+    font-size: 25px;
+}
+
+body{
+    background-image: url(../Imagens/mar2.jpg);
+}
+
+}
