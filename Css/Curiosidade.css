@@ -24,7 +24,6 @@ main{
 body{
    background-image: url(../Imagens/gat.jpg);
    background-repeat:no-repeat;
-   background-size: cover;
    background-color: black;
  
 }
@@ -91,7 +90,7 @@ small{
 
 
 
-@media screen and (min-width:250px) and (max-width:399px){
+@media screen and (min-width:250px) and (max-width:499px){
 
 
    body{
@@ -120,12 +119,7 @@ small{
 
 
 
-@media screen and (min-width:400px) and (max-width:765px){
-
-body{
-   background-image: url(../Imagens/gato.jpg);
-   background-color: black;
-}
+@media screen and (min-width:500px) and (max-width:765px){
 
 
 #a1,#a2,#a3,#a4{
@@ -151,6 +145,10 @@ article{
 
 
 @media screen and (min-width:1400px){
+
+   body{
+      background-size: cover;
+   }
 
    article{
       font-size:10px;
