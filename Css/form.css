@@ -1,12 +1,105 @@
+@charset "Utf-8";
 
-body{
-    background-color: gray;
+body {
+    background-image: url(../Imagens/pg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(12, 11, 11);
+    transition: 0.5s;
+  }
+
+
+  form {
+    width: 350px;
+    height: 380px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:5%;
+    background-color: white;
+    font-size:18px;
+    padding: 10px;
+  }
+
+  article {
+    width: 110px;
+    padding: 5px;
+    font-size:25px;
+    margin-top: -330px;
+    align-items: center;
+    transition: 0.5s;
+    float: right;
+    border-radius: 25px;
+    display:none;
+   
+  }
+
+article input{
+  border-radius: none;
+  background-color:rgb(12, 232, 240);
+  padding:5px;
+  border-radius: 25px;
+  border: none;
+  margin:5px;
+  font-size:15px;
+  display: block;
+}
+
+input:focus-within{
+    background-color: rgb(188, 226, 17);
+    border: 2px solid black;
+}
+
+#tema{
+  float:right;
+  margin-top:-400px;
+  margin-right:30px;
+  background-color: rgba(225, 225, 225, 0.7);
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+  width:50px;
+  cursor: pointer;
+}
+
+#cmt,#ct{
+  margin-left:60px;
+}
+
+#bbt{
+    width: 100%;
+    margin-top:8px;
+    height: 30px;
+    color: white;
+    background-color: rgb(49, 45, 45);
+    border: none;
+    border-radius: 10px;
+}
+
+#bbt:hover{
+    background-color: rgb(8, 8, 8);
 }
 
 
 
+@media screen and (min-width:250px) and (max-width:399px) {
+ 
+  form{
+    font-size:14px;
+    width:280px;
+    height:310px;
+  }
+}
+
+@media screen and (min-width:400px) and (max-width:765px) {
 
 
+  form{
+    font-size:18px;
+    width:300px;
+    height: 340px;
+  }
+}
 
 
 

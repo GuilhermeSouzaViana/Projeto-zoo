@@ -16,6 +16,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     background-color: white;
+    border-radius: 25px;
 }
 span{
     color: rgb(82, 78, 78);

@@ -1,37 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Css/form.css">
-    <title>Contato</title>
-<style>
-body{
-  background-image: url(../Imagens/ma.jfif);
-
-  background-repeat: no-repeat;
- 
-}
-</style>
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Css/form.css">
+  <title>Contato</title>
 </head>
-<body>
-    
-<form action="" method="post">
-    <label for="nome">Nome:</label>
-     <input type="text" id="nome">
 
-</form>
+<body id="body">
 
-  
+  <form action="" method="post">
+    <fieldset>
+      <legend>Contato</legend>
+      <p>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Nome completo">
+      </p>
+
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email" placeholder="@">
+      </p>
+
+      <p>
+        <label for="es">Estado:</label>
+        <input type="text" name="" id="es" list="list">
+        
+        <datalist id="list">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá  </option>
+                <option value="AM">Amazonas </option>
+                <option value="BA"> Bahia </option>
+                <option value="CE">Ceará</option> 
+                <option value="DF"> Distrito Federal</option>
+                <option value="ES">Espírito Santo </option>
+                <option value="GO">Goiás </option>
+                <option value="MA">Maranhão</option> 
+                <option value="MT">Mato Grosso  </option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná </option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul </option>
+                <option value="RO">Rondônia </option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina </option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins </option>
+        </datalist>
+      </p>
+
+      <label for="t">Telefone</label>
+      <input type="tel" name="" id="t" pattern="!\d{4,5}-{4}$" placeholder="(xx)xxxx-xxxx">
+
+      <p>
+        <label for="st">Nivel de satisfação</label>
+        <input type="range" name="" id="st" min="1" max="10" value="3" oninput="nv.innerHTML=Number(st.value)">
+        <output id="nv">5</output>
+      </p>
+
+
+      <p>
+        <label for="cmt" id="ct">Dúvidas ou sugestões ?</label> 
+        <input type="text" id="cmt">
+      </p>
+
+
+      <input type="file" name="" id="t"  pattern="!\d{4,5}-{4}$" placeholder="(xx) xxxx-xxxx">
+
+      <input type="button" value="Enviar" id="bbt"><br>
+    </fieldset>
+  </form>
+
+  <div id="tema">
+    <p>Temas</p>
+  </div>
+
+  <article id="ts">
+    <input type="button" value="Joaninha" id="joaninha">
+    <input type="button" value="Abelha" id="abelha">
+    <input type="button" value="Tamandua" id="tamandua">
+    <input type="button" value="Orca" id="orca">
+    <input type="button" value="Polvo" id="polvo">
+    <input type="button" value="Onça" id="onça">
+    <input type="button" value="Urso" id="urso"> 
+    <input type="button" value="Tema original" id="original">
+    <input type="button" value="Remover tema" id="padrao">
+  </article>
+
+  <small>&copy; Gui Viana</small>
 
 
 
-
-    
-
-<small>&copy; Gui Viana</small>
+  <script src="../Javascript/form.js"></script>
 
 </body>
+
 </html>

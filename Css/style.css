@@ -29,6 +29,7 @@ main{
     padding: 3px;
     display: flex;
     background-color: rgb(143, 139, 139);
+    border-radius: 25px;
 }
 
 article{

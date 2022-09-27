@@ -15,10 +15,6 @@ h2{margin-bottom:15px;}
 #click{color: yellow;}
 
 main{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
     width:98%;
     padding: 10px;
     margin-left: auto;
@@ -29,18 +25,20 @@ body{
    background-image: url(../Imagens/gat.jpg);
    background-repeat:no-repeat;
    background-size: cover;
+   background-color: black;
  
 }
 
 article{
+   display: block;
    padding:5px;
    font-size:10px;
-   margin:0px 80px 0px 50px;
    margin-bottom: 25px;
    cursor: pointer;
    transition:0.6s;
    background-color: rgba(5,7,12,0.7);
    border-radius: 7%;
+   transition: 0.8s;
 }
 
 p{
@@ -51,16 +49,25 @@ p{
 }
 
 #a1,#a2,#a3,#a4{
-   width:25%;
+   width:60%;
+}
+
+#a1,#a3{
+   float:left;
+}
+
+#a2,#a4{
+   float:right;
 }
 
 
 
 #voltar{
-   margin-left:43%;
-   font-size: 30px;
+   margin-left:40%;
+   font-size:40px;
    color:white;
    text-decoration: none;
+   float: bottom;
 }
 
 
@@ -84,14 +91,9 @@ small{
 
 
 
-@media screen and (min-width:280px) and (max-width:399px){
+@media screen and (min-width:250px) and (max-width:399px){
 
 
-
-   main{
-      flex-direction: column;
-   }
-   
    body{
       background-image: none;
       background-color: black;
@@ -99,33 +101,26 @@ small{
    
    
    #a1,#a2,#a3,#a4{
-      width:35%;
+      width:60%;
    }
    
    article{
-      font-size:6px;
+      font-size:10px;
       margin-bottom:35px;
    }
    
-   p{
-      background-color:black;
-   }
-   
-   #voltar{
-      margin-left:25%;
-      font-size:20px;
-   }
 
    #cs,#click{font-size:14px;}
+}
+
+#voltar{
+   margin-left:38%;
+   font-size:22px;
 }
 
 
 
 @media screen and (min-width:400px) and (max-width:765px){
-
-main{
-   flex-direction: column;
-}
 
 body{
    background-image: url(../Imagens/gato.jpg);
@@ -134,21 +129,18 @@ body{
 
 
 #a1,#a2,#a3,#a4{
-   width:38%;
+   width:60%;
 }
 
 article{
-   font-size: 8px;
+   font-size:10px;
    margin-bottom:30px;
 }
 
-p{
-   background-color:black;
-}
 
 #voltar{
-   margin-left:38%;
-   font-size:25px;
+   margin-left:43%;
+   font-size:28px;
 }
 
 #cs,#click{font-size:18px;}
@@ -157,12 +149,12 @@ p{
 
 
 
+
 @media screen and (min-width:1400px){
 
    article{
-      font-size:12px;
+      font-size:10px;
       margin-bottom:70px;
-      margin:0px 150px 0px 150px;
    }
    
    #voltar{
@@ -171,6 +163,12 @@ p{
    }
 
 
-   #cs{font-size:28px;}
+   #cs{font-size:30px;}
+
+
+   #voltar{
+      margin-left:43%;
+      font-size:35px;
+   }
 
 }
