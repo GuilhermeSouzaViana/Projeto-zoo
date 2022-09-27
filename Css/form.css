@@ -4,7 +4,7 @@ body {
     background-image: url(../Imagens/pg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgb(12, 11, 11);
+    background-color:gray;
     transition: 0.5s;
     height: 100%;
   }
@@ -12,13 +12,15 @@ body {
 
   form {
     width: 350px;
-    height: 380px;
+    height: 350px;
     margin-right: auto;
     margin-left: auto;
-    margin-top:5%;
+    margin-top:12%;
     background-color: white;
     font-size:18px;
-    padding: 10px;
+    padding:10px;
+    border-radius: 25px;
+    background-color: rgba(225,225,225,0.7);
   }
 
   article {
@@ -81,52 +83,115 @@ input:focus-within{
     background-color: rgb(8, 8, 8);
 }
 
+small{
+  color:white;
+  font-size: 25px;
+  margin: 10px;
+}
 
 
-@media screen and (min-width:250px) and (max-width:399px) {
+@media screen and (min-width:250px) and (max-width:524px) {
+   #tema{display: none;}
+
+   form{
+    font-size:10px;
+    width:225px;
+    height:250px;
+    margin-top:40%;
+  }
+
+  #cmt{
+    margin-left:20px;
+  }
+  
+  #ct{
+    margin-left:60px;
+  }
+
+
+  input[type=file]{display: none;}
+
+}
+
+
+
+@media screen and (min-width:525px) and (max-width:599px) {
  
+  #tema{
+    margin-top:-280px;
+  }
+  
+  article{
+    margin-top:-210px;
+  }
+
+  #tamandua,#orca,#polvo{
+    display: none;
+  }
+
+  form{
+    font-size:10px;
+    width:225px;
+    height:250px;
+    margin-top:30%;
+  }
+#cmt{
+  margin-left:25px;
+}
+
+#ct{
+  margin-left:65px;
+}
+
+  input[type=file]{display: none;}
+}
+
+@media screen and (min-width:600px) and (max-width:765px) {
+
+  #tamandua,#orca{
+    display: none;
+  }
+
+#tema{
+  margin-top:-350px;
+}
+
+article{
+  margin-top:-280px;
+}
+
   form{
     font-size:14px;
-    width:280px;
-    height:310px;
+    width:270px;
+    height:330px;
+    margin-top:20%;
   }
+
+
+  #cmt{
+    margin-left:50px;
+  }
+  
+  #ct{
+    margin-left:70px;
+  }
+
 }
 
-@media screen and (min-width:400px) and (max-width:765px) {
+@media screen and (min-width:766px) and (max-width:995px) {
 
+
+  #tema{
+    margin-top:-380px;
+  }
+  
+  article{
+    margin-top:-300px;
+  }
 
   form{
-    font-size:18px;
-    width:300px;
-    height: 340px;
+    margin-top:27%;
   }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-small{
-    color:white;
-    font-size: 25px;
-    margin: 10px;
 }
 
 

@@ -8,11 +8,11 @@ body{
 }
 
 main{
-    width:98%;
+    width:95%;
     margin-left:auto;
     margin-right:auto;
     border: 3px solid white;
-    padding: 5px;
+    padding:7px;
     display: flex;
     flex-wrap: wrap;
     background-color: white;
@@ -83,6 +83,7 @@ figure{
     display: flex;
    flex-wrap: wrap;
    padding:15px;
+   border-radius: 25px;
 }
 
 .pa h1,h2{color: red;}
@@ -182,7 +183,7 @@ small{
 
 
 
-@media screen and (min-width:200px) and (max-width:363px) {
+@media screen and (min-width:250px) and (max-width:363px) {
     
     main{
         flex-direction: column;
@@ -198,6 +199,7 @@ small{
         flex-direction: column;  
         background-image: none;
         background-color:rgba(0,0,0, 0.9);
+        width:92%;
     }
 
     .pa article{
@@ -209,7 +211,7 @@ small{
     
     p,.ul,#inter,.pf{font-size: 12px;}h1{font-size: 22px;}h2{font-size: 20px;}h1{font-size: 25px;}h3{font-size: 15px;}
 
-    #voltar{font-size: 18px;}
+    #voltar{font-size: 20px;}
 }
 
 
@@ -228,7 +230,8 @@ small{
     }
 
     .pa{
-        flex-direction: column;  
+        flex-direction:column;  
+        width:92%;
     }
 
     .pa article{
@@ -241,14 +244,14 @@ small{
   
 
 
-    p,.ul,#inter,.pf{font-size: 17px;}h1{font-size: 30px;}h2{font-size: 27px;}h1{font-size: 32px;}h3{font-size: 22px;}
+    p,.ul,#inter,.pf{font-size: 16px;}h1{font-size: 29px;}h2{font-size: 26px;}h1{font-size: 31px;}h3{font-size: 21px;}
 
-    #voltar{font-size: 20px;}
+    #voltar{margin-left:40%;font-size:25px;}
 }
 
 
 
-@media screen and (min-width:766px) and (max-width:1050px) {
+@media screen and (min-width:766px) and (max-width:1073px) {
     article{
         width:28.5%;
     }
