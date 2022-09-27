@@ -63,6 +63,10 @@ h1{
    
     nav a{font-size:15px;}
 
+    nav a:hover{  
+        font-size:15px; 
+    }
+
 }
 
 
@@ -74,4 +78,8 @@ h1{
    
     nav a{font-size:18px;}
 
+
+    nav a:hover{  
+        font-size: 18px; 
+    }
 }
