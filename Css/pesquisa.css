@@ -51,23 +51,23 @@ a{
    
 }
 
-@media screen and (min-width:250px) and (max-width:500px) {
+@media screen and (min-width:225px) and (max-width:500px) {
    
 
 
     #principal{
-        width:240px;
-        height:170px;
+        width:210px;
+        height:150px;
     }
     
     figure{
-        width:220px;
-        height:150px;
+        width:200px;
+        height:130px;
     }
 
-    a{font-size: 18px;margin-left: 47%;}
+    a{font-size: 14px;margin-left: 47%;}
 
-    p{font-size:14px;}h1{font-size:28px ;}h2{font-size:18px;}
+    p{font-size:18px;}h1{font-size:28px ;}h2{font-size:20px;}
 }
 
 
