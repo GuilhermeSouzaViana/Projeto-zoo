@@ -29,28 +29,37 @@ body {
   }
 
   article {
-    width: 110px;
-    padding: 5px;
-    font-size:25px;
-    margin-top: -330px;
+    width: 115px;
+    padding:2px;
+    font-size:16px;
+    margin-top: -315px;
     align-items: center;
     transition: 0.5s;
     float: right;
     border-radius: 25px;
-    display:none;
-   
+    display:block;
+    background-color:rgba(225,225,225,0.75);
   }
 
-article input{
-  border-radius: none;
-  background-color:rgb(12, 232, 240);
-  padding:5px;
-  border-radius: 25px;
-  border: none;
-  margin:5px;
-  font-size:15px;
-  display: block;
-}
+#op{padding: 3px;}
+  
+  #tx{
+    width:80px;
+    margin-top:-50px;
+    margin-left:10px;
+  }
+
+  #padrao{
+    margin-top: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    width:100%;
+  }
+
+  #padrao:hover{
+    background-color: rgb(39, 38, 38);
+  }
 
 input:focus-within{
     background-color: rgb(188, 226, 17);
@@ -91,7 +100,7 @@ input:focus-within{
 }
 
 
-@media screen and (min-width:200px) and (max-width:300px) {
+@media screen and (min-width:200px) and (max-width:333px) {
 
   form{
     font-size:12px;
@@ -117,7 +126,7 @@ input:focus-within{
 
 }
 
-@media screen and (min-width:301px) and (max-width:524px) {
+@media screen and (min-width:334px) and (max-width:524px) {
   small{display: none;} 
   
   
@@ -149,18 +158,18 @@ input:focus-within{
 @media screen and (min-width:525px) and (max-width:599px) {
  
   #tema{
-    margin-top:-280px;
+    margin-top:-330px;
     margin-right:20px;
+    font-size: 14px;
   }
   
   article{
-    margin-top:-210px;
-    margin-right:-10px;
+    margin-top:-260px;
+    margin-right:0px;
+    font-size:14px;
+    width: 100px;
   }
 
-  #tamandua,#orca,#polvo{
-    display: none;
-  }
 
   form{
     font-size:14px;
@@ -181,12 +190,10 @@ input:focus-within{
 
 @media screen and (min-width:600px) and (max-width:765px) {
 
-  #tamandua,#orca{
-    display: none;
-  }
 
 #tema{
   margin-top:-350px;
+  font-size:16px;
 }
 
 article{
@@ -216,6 +223,7 @@ article{
 
   #tema{
     margin-top:-380px;
+    font-size: 16px;
   }
   
   article{

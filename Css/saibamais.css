@@ -21,6 +21,8 @@ h1 {
     border-bottom-left-radius: 25px;
     padding: 5px;
     box-shadow: 0px 0px 30px yellow;
+    text-align: center;
+    font-size: 25px;
 
 }
 
@@ -29,11 +31,6 @@ p {
     border-radius: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-h1 {
-    text-align: center;
-    font-size: 25px;
 }
 
 figure {
@@ -143,26 +140,47 @@ color: white;
         display: flex;
         flex-direction:column;
         font-size: 12px;
-        background-image: none;
+        background-image:none;
+        box-shadow: none;
+        background-color: none;     
+     }
+
+     figcaption{
+        text-shadow: none;
+        font-size: 14px;
+        text-align: center;
      }
  
+     .flex1 figure,.flex2 figure{
+        box-shadow: none;
+        width: 50%;
+        height:180px;
+     }
+
+     .flex1 div,.flex2 div{
+        text-shadow: none;
+     }
+
      div{
         width: 80%;
         font-size:12px;
+        background-color:none;
       }
 
       article{
         font-size:12px;
     }
+   
     h1{
         font-size: 12px;
+        box-shadow:none;
     }
 
     #chordata{
-        width: 95%;
+        width: 70%;
         font-size:12px;
         color:white;
-        text-shadow: 0px 0px 100px yellow;
+        text-shadow:none;
       }
 
 }
@@ -173,7 +191,7 @@ color: white;
     .flex1,.flex2{
        display: flex;
        flex-direction:column;
-       font-size: 18px;
+       font-size: 15px;
     }
 
     .flex1{
@@ -195,7 +213,7 @@ color: white;
 }
 
   div{
-    width: 95%;
+    width: 90%;
     font-size:22px;
     background-color: rgba(5, 7, 8, 0.6);
     border-radius:30px;
@@ -204,7 +222,7 @@ color: white;
 
   #chordata{
     width: 95%;
-    font-size:25px;
+    font-size:22px;
     color:white;
     text-shadow: 0px 0px 100px yellow;
   }
