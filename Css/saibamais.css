@@ -129,14 +129,16 @@ color: white;
         background-color: none;     
      }
 
+      
+
      figcaption{
-        font-size: 14px;
+        font-size: 11px;
         text-align: center;
      }
  
      .flex1 figure,.flex2 figure{
         width:195px;
-        height:185px;
+        height:180px;
      }
 
       #molu,#artr{
