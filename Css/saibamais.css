@@ -12,15 +12,13 @@ article {
 }
 
 h1 {
-    color: yellow;
     width: 90%;
-    background-color: red;
+    background-color:gray;
     margin-left: auto;
     margin-right: auto;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
     padding: 5px;
-    box-shadow: 0px 0px 30px yellow;
     text-align: center;
     font-size: 25px;
 
@@ -95,13 +93,7 @@ color: white;
     background-size: cover; 
 }
 
-.flex1 div{
-    text-shadow:0px 0px 25px red;
-}
 
-.flex1 figure{
-    box-shadow: 0px 0px 45px red;
-}
 
 
 .flex2{
@@ -116,13 +108,6 @@ color: white;
     color: white;
 }
 
-.flex2 div{
-    text-shadow:0px 0px 25px yellow;
-}
-
-.flex2 figure{
-    box-shadow: 0px 0px 45px yellow;
-}
 
 
 #chordata{
@@ -141,25 +126,22 @@ color: white;
         flex-direction:column;
         font-size: 12px;
         background-image:none;
-        box-shadow: none;
         background-color: none;     
      }
 
      figcaption{
-        text-shadow: none;
         font-size: 14px;
         text-align: center;
      }
  
      .flex1 figure,.flex2 figure{
-        box-shadow: none;
-        width: 50%;
+        width:195px;
         height:180px;
      }
 
-     .flex1 div,.flex2 div{
-        text-shadow: none;
-     }
+      #molu,#artr{
+        height:208px;
+      }
 
      div{
         width: 80%;
@@ -177,7 +159,7 @@ color: white;
     }
 
     #chordata{
-        width: 70%;
+        width:200px;
         font-size:12px;
         color:white;
         text-shadow:none;
@@ -191,7 +173,7 @@ color: white;
     .flex1,.flex2{
        display: flex;
        flex-direction:column;
-       font-size: 15px;
+       font-size: 14px;
     }
 
     .flex1{
@@ -209,30 +191,28 @@ color: white;
 
 .flex2 div{
     color: white;
-    text-shadow: 0px 0px 100px yellow;
 }
 
   div{
     width: 90%;
-    font-size:22px;
-    background-color: rgba(5, 7, 8, 0.6);
+    font-size:20px;
     border-radius:30px;
     padding: 10px;
+    background-color: rgba(5, 7, 12, 0.6);
   }
 
   #chordata{
     width: 95%;
-    font-size:22px;
+    font-size:20px;
     color:white;
-    text-shadow: 0px 0px 100px yellow;
   }
 
 article{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 26px;
 }
 
 }
@@ -243,7 +223,7 @@ h1{
     .flex1,.flex2{
        display: flex;
        flex-direction:column;
-       font-size:24px;
+       font-size:22px;
     }
 
     .flex1{
@@ -261,35 +241,33 @@ h1{
 
 .flex2 div{
     color: white;
-    text-shadow: 0px 0px 100px yellow;
 }
 
   div{
     width: 80%;
-    font-size:35px;
-    background-color: rgba(5, 7, 8, 0.6);
+    font-size:32px;
     border-radius:25px;
     padding: 10px;
+    background-color: rgba(5, 7, 12, 0.6);
   }
 
   #chordata{
     width: 80%;
-    font-size:30px;
+    font-size:28px;
     color:white;
-    text-shadow: 0px 0px 100px yellow;
   }
 
 article{
-    font-size: 27px;
+    font-size: 25px;
 }
 
 h1{
-    font-size: 35px;
+    font-size: 32px;
 }
 
 figcaption{
     color: white;
-    font-size:25px ;
+    font-size:22px ;
     }
     
 
