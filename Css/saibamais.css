@@ -119,7 +119,7 @@ color: white;
 }
 
 
-@media screen and (min-width:200px) and (max-width:499px) {
+@media screen and (min-width:260px) and (max-width:499px) {
     .flex1,.flex2{
         display: flex;
         flex-direction:column;
@@ -128,7 +128,10 @@ color: white;
         background-color: none;     
      }
 
-      
+
+      #molu,#artr{
+        margin-bottom:22px;
+      }
 
      figcaption{
         font-size: 12px;
@@ -266,7 +269,7 @@ h1{
 
 figcaption{
     color: white;
-    font-size:22px ;
+    font-size:30px ;
     }
     
 
