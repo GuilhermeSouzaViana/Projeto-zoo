@@ -70,7 +70,7 @@
     }else if(op.value=="9"){
       b.style.backgroundImage = "none"
       f.style.backgroundImage = "none"
-      t.style.backgroundColor = "gray"
+      t.style.backgroundColor = "#3E4040"
       f.style.color ="black"
 
     }else{

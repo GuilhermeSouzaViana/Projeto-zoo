@@ -4,26 +4,27 @@ html{
 }
 
 body{
-    background:linear-gradient(rgb(22, 139, 32),rgb(8, 73, 212));
+    background:linear-gradient(#3E4040,#C5C9C9,#3E4040);
 }
 
 main{
     width:95%;
     margin-left:auto;
     margin-right:auto;
-    border: 3px solid white;
+    border: 3px solid black;
     padding:7px;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #E1E6E6;
     border-radius: 25px;
 }
 span{
-    color: rgb(82, 78, 78);
+    color:black;
 }
 
+#moa{color: black;}
+
 h1{
-    color: black;
     text-align: center;
     margin-left:auto;
     margin-right:auto;
@@ -163,7 +164,7 @@ figure{
 #voltar{
     margin-left:43%;
     font-size: 30px;
-    color: black;
+    color: #C5C9C9;
     text-decoration: none;
 }
 

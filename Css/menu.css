@@ -6,6 +6,9 @@
     padding: 0px;
 
 }
+
+
+
 body{
     background-color: gray;
 }
@@ -43,7 +46,7 @@ nav a{
 nav a:hover{
     text-decoration: underline;
     font-size: 22px;
-    color: rgb(30, 194, 223);
+    color:yellow;
 }
 
 h1{
