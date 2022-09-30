@@ -106,7 +106,7 @@ input:focus-within{
     font-size:12px;
     width:215px;
     height:315px;
-    margin-top:55%;
+    margin-top:77%;
   }
 
   #tema{display: none;}
@@ -120,6 +120,9 @@ input:focus-within{
     margin-left:60px;
   }
 
+  body{background-image: url(../Imagens/ggor.jpg);}
+
+  form{background-image: url(../Imagens/gorf.jpg);color: white;}
   
   input[type=file]{display: none;}
 
@@ -137,16 +140,20 @@ input:focus-within{
     margin-left:55px;
   }
   
+  
   #ct{
     margin-left:60px;
   }
 
+  body{background-image: url(../Imagens/ggor.jpg);}
+
+  form{background-image: url(../Imagens/gorf.jpg);color: white;}
 
   form{
     font-size:18px;
     width:300px;
     height:350px;
-    margin-top:30%;
+    margin-top:47%;
   }
 
   input[type=file]{display: none;}
@@ -157,25 +164,17 @@ input:focus-within{
 
 @media screen and (min-width:525px) and (max-width:599px) {
  
-  #tema{
-    margin-top:-330px;
-    margin-right:20px;
-    font-size: 14px;
-  }
+ body{background-image: url(../Imagens/ggor.jpg);}
+
+ form{background-image: url(../Imagens/gorf.jpg);color: white;}
   
-  article{
-    margin-top:-260px;
-    margin-right:0px;
-    font-size:14px;
-    width: 100px;
-  }
-
-
+  #tema{display: none;}
+  
   form{
     font-size:14px;
     width:280px;
     height:320px;
-    margin-top:30%;
+    margin-top:38%;
   }
 #cmt{
   margin-left:25px;
@@ -204,7 +203,7 @@ article{
     font-size:14px;
     width:290px;
     height:340px;
-    margin-top:20%;
+    margin-top:25%;
   }
 
 
@@ -220,7 +219,7 @@ article{
 
 @media screen and (min-width:766px) and (max-width:995px) {
 
-
+ 
   #tema{
     margin-top:-380px;
     font-size: 16px;

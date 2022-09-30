@@ -21,7 +21,7 @@ main{
         font-size: 20px;
         margin-right: auto;
         margin-left: auto;
-        margin-bottom:15px;
+        margin-bottom:30px;
         border-radius:25px;
         width:430px;
         height:148px;
@@ -109,3 +109,14 @@ main{
 
    h1,h2{font-size: 28px;}
  }
+
+
+  @media screen  and (max-width:780px){
+
+   article{margin-bottom:40px;}
+  
+   body{
+      background-image:url(../Imagens/paisagg.jpg) ;
+   } 
+
+  }

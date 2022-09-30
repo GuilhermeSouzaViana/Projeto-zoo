@@ -66,13 +66,6 @@
       f.style.backgroundImage = "url(../Imagens/gir.jpg)"
       t.style.backgroundColor = "#d1d5de"
       f.style.color ="black"
-   
-    }else if(op.value=="9"){
-      b.style.backgroundImage = "none"
-      f.style.backgroundImage = "none"
-      t.style.backgroundColor = "#3E4040"
-      f.style.color ="black"
-
     }else{
       alert("opçao inválida")
     }
