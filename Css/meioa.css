@@ -44,7 +44,7 @@ h3{
 
 p{
     font-size: 21px;
-    margin: 5px;
+    margin:10px;
     text-align:center;
 }
 
@@ -53,11 +53,14 @@ p{
     margin-right:auto;
     font-size: 21px;
     padding: 5px;
+    text-align: center;
     text-decoration:none;
     list-style-type:none;
 }
 
-#inter{font-size: 18px;}.pf{font-size: 19px;}
+.ul li{margin: 5px;}
+
+#inter{font-size: 20px;}.pf{font-size: 19px;}
 
 article{
     margin-top:8px;margin-bottom:8px;margin-left:25px;

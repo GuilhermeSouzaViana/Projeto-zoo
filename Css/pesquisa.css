@@ -46,10 +46,14 @@ border-radius: 25px;
 
 a{
     font-size: 30px;
-    color: black;
+    color: #3E4040;
   margin-left: 43%;
+  text-decoration: none;
    
 }
+
+
+a:hover{color:black;}
 
 @media screen and (min-width:225px) and (max-width:500px) {
    
