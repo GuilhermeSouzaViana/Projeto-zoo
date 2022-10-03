@@ -100,11 +100,11 @@ input:focus-within{
 }
 
 
-@media screen and (min-width:200px) and (max-width:333px) {
+@media screen and (min-width:250px) and (max-width:375px) {
 
   form{
-    font-size:12px;
-    width:215px;
+    font-size:10px;
+    width:235px;
     height:315px;
     margin-top:77%;
   }
@@ -129,7 +129,7 @@ input:focus-within{
 
 }
 
-@media screen and (min-width:334px) and (max-width:524px) {
+@media screen and (min-width:376px) and (max-width:524px) {
   small{display: none;} 
   
   
@@ -150,7 +150,7 @@ input:focus-within{
   form{background-image: url(../Imagens/gorf.jpg);color: white;}
 
   form{
-    font-size:18px;
+    font-size:16px;
     width:300px;
     height:350px;
     margin-top:47%;
@@ -172,7 +172,7 @@ input:focus-within{
   
   form{
     font-size:14px;
-    width:280px;
+    width:300px;
     height:320px;
     margin-top:38%;
   }
@@ -190,18 +190,15 @@ input:focus-within{
 @media screen and (min-width:600px) and (max-width:765px) {
 
 
-#tema{
-  margin-top:-350px;
-  font-size:16px;
-}
+#tema{display: none}
 
-article{
-  margin-top:-280px;
-}
+body{background-image: url(../Imagens/ggor.jpg);}
+
+form{background-image: url(../Imagens/gorf.jpg);color: white;}
 
   form{
     font-size:14px;
-    width:290px;
+    width:330px;
     height:340px;
     margin-top:25%;
   }
