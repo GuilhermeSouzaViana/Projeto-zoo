@@ -17,7 +17,7 @@ Link: https://guilhermesouzaviana.github.io/Projeto-zoo/
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/102191587/193870154-453c2c32-3a94-4b5b-af19-d1a0c1008af3.png"  width="400px"/>
-    <img src="https://user-images.githubusercontent.com/102191587/193870154-453c2c32-3a94-4b5b-af19-d1a0c1008af3.png"  width="400px"/>
+    <img src="https://user-images.githubusercontent.com/102191587/193892394-b57abef5-b7bd-4a41-b53f-933813191178.png"  width="400px"/>
 </div>
 
 <p align="center">Saiba mais, para quem quer se aprofundar um pouco mais essa página explica outras classificações dos animais.</p>
@@ -30,7 +30,7 @@ Link: https://guilhermesouzaviana.github.io/Projeto-zoo/
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/102191587/193865752-3edcc56e-8d9a-4206-95f2-f72513cc805a.png"  width="400px"/>
-    <img src="https://user-images.githubusercontent.com/102191587/193865752-3edcc56e-8d9a-4206-95f2-f72513cc805a.png"  width="400px"/>
+   <img src="https://user-images.githubusercontent.com/102191587/193891457-a8347a69-8281-4369-975e-774a39f37616.png" width="400px"/>
 </div>
 
 
@@ -44,7 +44,7 @@ Link: https://guilhermesouzaviana.github.io/Projeto-zoo/
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/102191587/193867073-5c5fed4b-86d8-4c6b-84d2-dca58b3b87c6.png" width="400px" />
-    <img src="https://user-images.githubusercontent.com/102191587/193867073-5c5fed4b-86d8-4c6b-84d2-dca58b3b87c6.png" width="400px" />
+    <img src="https://user-images.githubusercontent.com/102191587/193895791-1b6730a4-f5c8-4771-9f04-e8ed9e62e4c9.png" width="400px" />
 </div>
 
 
@@ -59,7 +59,7 @@ Link: https://guilhermesouzaviana.github.io/Projeto-zoo/
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/102191587/193867392-97589d79-7db6-4404-bb2a-8079d04e4e54.png"  width="400px"/>
-  <img src="https://user-images.githubusercontent.com/102191587/193867392-97589d79-7db6-4404-bb2a-8079d04e4e54.png"  width="400px"/>
+  <img src="https://user-images.githubusercontent.com/102191587/193887544-48cccf45-9731-4bb7-82af-80fb7af761dc.png"  width="400px"/>
 </div>
 
 <p align="center">Contato, é focado na mudança do tema da página tendo diversas opções intessantissímas !!!</p>
@@ -75,7 +75,7 @@ Link: https://guilhermesouzaviana.github.io/Projeto-zoo/
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/102191587/193867905-fd8be836-8b14-46fb-9397-2f73e80df1a7.png"  width="400px"/>
-    <img src="https://user-images.githubusercontent.com/102191587/193867905-fd8be836-8b14-46fb-9397-2f73e80df1a7.png"  width="400px"/>
+    <img src="https://user-images.githubusercontent.com/102191587/193893612-017b3eae-c83a-4eae-a7d5-53f3d2e23992.png"  width="400px"/>
 </div>
 
 
