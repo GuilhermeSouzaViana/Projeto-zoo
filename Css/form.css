@@ -103,10 +103,10 @@ input:focus-within{
 @media screen and (min-width:250px) and (max-width:375px) {
 
   form{
-    font-size:10px;
-    width:235px;
+    font-size:9.5px;
+    width:237px;
     height:315px;
-    margin-top:77%;
+    margin-top:55%;
   }
 
   #tema{display: none;}
