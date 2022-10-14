@@ -2,7 +2,7 @@
 
 Link: https://guilhermesouzaviana.github.io/Projeto-zoo/
 
-### Projeto pessoal feito com o tema "Mundo animal", a intenção é englobar todo o assunto de forma dinâmica e divertida de ser navegado.
+### Projeto pessoal focado no tema "Mundo animal", a intenção é englobar todo o assunto de forma dinâmica e divertida de ser navegado.
 
 <p align="center"> Home, a página principal é a introdução sobre os animais e com uma aba de exploração podendo escolher a categoria(mamíferos,anfíbios,répteis,aves e insetos)e o animal da mesma. </p>
 
